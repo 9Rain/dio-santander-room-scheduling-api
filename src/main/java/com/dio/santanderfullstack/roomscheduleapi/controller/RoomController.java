@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController 
-@CrossOrigin(origins = "http://localhost:4200, https://9rain.github.io/")
+@CrossOrigin
 @RequestMapping("/api/v1/rooms")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class RoomController {
